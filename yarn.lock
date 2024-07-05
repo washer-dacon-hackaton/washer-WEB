@@ -3766,6 +3766,9 @@ __metadata:
     react: "npm:^18.3.1"
     react-dom: "npm:^18.3.1"
     vite: "npm:^5.3.1"
+    wowds-icons: "npm:^0.0.3"
+    wowds-tokens: "npm:^0.0.9"
+    wowds-ui: "npm:^0.1.1"
   languageName: unknown
   linkType: soft
 
@@ -3853,6 +3856,32 @@ __metadata:
   version: 1.2.5
   resolution: "word-wrap@npm:1.2.5"
   checksum: e0e4a1ca27599c92a6ca4c32260e8a92e8a44f4ef6ef93f803f8ed823f486e0889fc0b93be4db59c8d51b3064951d25e43d434e95dc8c960cc3a63d65d00ba20
+  languageName: node
+  linkType: hard
+
+"wowds-icons@npm:^0.0.3":
+  version: 0.0.3
+  resolution: "wowds-icons@npm:0.0.3"
+  checksum: 77c1d0f4d4eb9866077f320acdf58244ba7e9d5d5d946779fbb164fbd8af309dab2ead306b5ae01bef3c1e5b7b4bde6e8e0cf63442d9a731fa2bfc3e5f0d1879
+  languageName: node
+  linkType: hard
+
+"wowds-tokens@npm:^0.0.9":
+  version: 0.0.9
+  resolution: "wowds-tokens@npm:0.0.9"
+  checksum: 20c779eea0e383564d0a61e774c76be56b7bf714ac5aa4e34a66957151198386bd210eac8ebf32bf9ea8c3a62930b09b012cf69412872449d44714f7fdb6de6c
+  languageName: node
+  linkType: hard
+
+"wowds-ui@npm:^0.1.1":
+  version: 0.1.1
+  resolution: "wowds-ui@npm:0.1.1"
+  dependencies:
+    wowds-icons: "npm:^0.0.3"
+  peerDependencies:
+    next: ^14.1.1
+    react: ^18.2.0
+  checksum: a178f25b68df9bf1e554a65ceb1612f47d47027a9539e3cee81c66d560c41dc133a3a10d42fc13745d4c265250b52e0ef619ddaa27946915ef6e2fd332236821
   languageName: node
   linkType: hard
 

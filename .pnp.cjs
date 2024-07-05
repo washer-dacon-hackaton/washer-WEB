@@ -35,7 +35,10 @@ const RAW_RUNTIME_STATE =
           ["eslint-plugin-react-refresh", "virtual:ee40ece14ec021b13b1ae66efe434e48c74c7640d61ec0f7da715628282a07c9df8e519eae495c9f6ff15699d524515e77b070018dc5820f6f9b0c58efcdf6df#npm:0.4.7"],\
           ["react", "npm:18.3.1"],\
           ["react-dom", "virtual:ee40ece14ec021b13b1ae66efe434e48c74c7640d61ec0f7da715628282a07c9df8e519eae495c9f6ff15699d524515e77b070018dc5820f6f9b0c58efcdf6df#npm:18.3.1"],\
-          ["vite", "virtual:ee40ece14ec021b13b1ae66efe434e48c74c7640d61ec0f7da715628282a07c9df8e519eae495c9f6ff15699d524515e77b070018dc5820f6f9b0c58efcdf6df#npm:5.3.3"]\
+          ["vite", "virtual:ee40ece14ec021b13b1ae66efe434e48c74c7640d61ec0f7da715628282a07c9df8e519eae495c9f6ff15699d524515e77b070018dc5820f6f9b0c58efcdf6df#npm:5.3.3"],\
+          ["wowds-icons", "npm:0.0.3"],\
+          ["wowds-tokens", "npm:0.0.9"],\
+          ["wowds-ui", "virtual:ee40ece14ec021b13b1ae66efe434e48c74c7640d61ec0f7da715628282a07c9df8e519eae495c9f6ff15699d524515e77b070018dc5820f6f9b0c58efcdf6df#npm:0.1.1"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -4303,7 +4306,10 @@ const RAW_RUNTIME_STATE =
           ["eslint-plugin-react-refresh", "virtual:ee40ece14ec021b13b1ae66efe434e48c74c7640d61ec0f7da715628282a07c9df8e519eae495c9f6ff15699d524515e77b070018dc5820f6f9b0c58efcdf6df#npm:0.4.7"],\
           ["react", "npm:18.3.1"],\
           ["react-dom", "virtual:ee40ece14ec021b13b1ae66efe434e48c74c7640d61ec0f7da715628282a07c9df8e519eae495c9f6ff15699d524515e77b070018dc5820f6f9b0c58efcdf6df#npm:18.3.1"],\
-          ["vite", "virtual:ee40ece14ec021b13b1ae66efe434e48c74c7640d61ec0f7da715628282a07c9df8e519eae495c9f6ff15699d524515e77b070018dc5820f6f9b0c58efcdf6df#npm:5.3.3"]\
+          ["vite", "virtual:ee40ece14ec021b13b1ae66efe434e48c74c7640d61ec0f7da715628282a07c9df8e519eae495c9f6ff15699d524515e77b070018dc5820f6f9b0c58efcdf6df#npm:5.3.3"],\
+          ["wowds-icons", "npm:0.0.3"],\
+          ["wowds-tokens", "npm:0.0.9"],\
+          ["wowds-ui", "virtual:ee40ece14ec021b13b1ae66efe434e48c74c7640d61ec0f7da715628282a07c9df8e519eae495c9f6ff15699d524515e77b070018dc5820f6f9b0c58efcdf6df#npm:0.1.1"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -4393,6 +4399,51 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../.yarn/berry/cache/word-wrap-npm-1.2.5-42d00c4b09-10c0.zip/node_modules/word-wrap/",\
         "packageDependencies": [\
           ["word-wrap", "npm:1.2.5"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["wowds-icons", [\
+      ["npm:0.0.3", {\
+        "packageLocation": "../../.yarn/berry/cache/wowds-icons-npm-0.0.3-b90ce589e0-10c0.zip/node_modules/wowds-icons/",\
+        "packageDependencies": [\
+          ["wowds-icons", "npm:0.0.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["wowds-tokens", [\
+      ["npm:0.0.9", {\
+        "packageLocation": "../../.yarn/berry/cache/wowds-tokens-npm-0.0.9-59d53847c6-10c0.zip/node_modules/wowds-tokens/",\
+        "packageDependencies": [\
+          ["wowds-tokens", "npm:0.0.9"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["wowds-ui", [\
+      ["npm:0.1.1", {\
+        "packageLocation": "../../.yarn/berry/cache/wowds-ui-npm-0.1.1-33832bdf19-10c0.zip/node_modules/wowds-ui/",\
+        "packageDependencies": [\
+          ["wowds-ui", "npm:0.1.1"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:ee40ece14ec021b13b1ae66efe434e48c74c7640d61ec0f7da715628282a07c9df8e519eae495c9f6ff15699d524515e77b070018dc5820f6f9b0c58efcdf6df#npm:0.1.1", {\
+        "packageLocation": "./.yarn/__virtual__/wowds-ui-virtual-8322acaa2f/3/.yarn/berry/cache/wowds-ui-npm-0.1.1-33832bdf19-10c0.zip/node_modules/wowds-ui/",\
+        "packageDependencies": [\
+          ["wowds-ui", "virtual:ee40ece14ec021b13b1ae66efe434e48c74c7640d61ec0f7da715628282a07c9df8e519eae495c9f6ff15699d524515e77b070018dc5820f6f9b0c58efcdf6df#npm:0.1.1"],\
+          ["@types/next", null],\
+          ["@types/react", "npm:18.3.3"],\
+          ["next", null],\
+          ["react", "npm:18.3.1"],\
+          ["wowds-icons", "npm:0.0.3"]\
+        ],\
+        "packagePeers": [\
+          "@types/next",\
+          "@types/react",\
+          "next",\
+          "react"\
         ],\
         "linkType": "HARD"\
       }]\
