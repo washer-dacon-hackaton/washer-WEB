@@ -32,6 +32,7 @@ const RAW_RUNTIME_STATE =
           ["@types/react", "npm:18.3.3"],\
           ["@types/react-dom", "npm:18.3.0"],\
           ["@vitejs/plugin-react", "virtual:ee40ece14ec021b13b1ae66efe434e48c74c7640d61ec0f7da715628282a07c9df8e519eae495c9f6ff15699d524515e77b070018dc5820f6f9b0c58efcdf6df#npm:4.3.1"],\
+          ["emotion-reset", "virtual:ee40ece14ec021b13b1ae66efe434e48c74c7640d61ec0f7da715628282a07c9df8e519eae495c9f6ff15699d524515e77b070018dc5820f6f9b0c58efcdf6df#npm:3.0.1"],\
           ["eslint", "npm:8.57.0"],\
           ["eslint-plugin-react", "virtual:ee40ece14ec021b13b1ae66efe434e48c74c7640d61ec0f7da715628282a07c9df8e519eae495c9f6ff15699d524515e77b070018dc5820f6f9b0c58efcdf6df#npm:7.34.3"],\
           ["eslint-plugin-react-hooks", "virtual:ee40ece14ec021b13b1ae66efe434e48c74c7640d61ec0f7da715628282a07c9df8e519eae495c9f6ff15699d524515e77b070018dc5820f6f9b0c58efcdf6df#npm:4.6.2"],\
@@ -1928,6 +1929,28 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../.yarn/berry/cache/emoji-regex-npm-9.2.2-e6fac8d058-10c0.zip/node_modules/emoji-regex/",\
         "packageDependencies": [\
           ["emoji-regex", "npm:9.2.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["emotion-reset", [\
+      ["npm:3.0.1", {\
+        "packageLocation": "../../.yarn/berry/cache/emotion-reset-npm-3.0.1-061e1e27b7-10c0.zip/node_modules/emotion-reset/",\
+        "packageDependencies": [\
+          ["emotion-reset", "npm:3.0.1"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:ee40ece14ec021b13b1ae66efe434e48c74c7640d61ec0f7da715628282a07c9df8e519eae495c9f6ff15699d524515e77b070018dc5820f6f9b0c58efcdf6df#npm:3.0.1", {\
+        "packageLocation": "./.yarn/__virtual__/emotion-reset-virtual-85c46ce453/3/.yarn/berry/cache/emotion-reset-npm-3.0.1-061e1e27b7-10c0.zip/node_modules/emotion-reset/",\
+        "packageDependencies": [\
+          ["emotion-reset", "virtual:ee40ece14ec021b13b1ae66efe434e48c74c7640d61ec0f7da715628282a07c9df8e519eae495c9f6ff15699d524515e77b070018dc5820f6f9b0c58efcdf6df#npm:3.0.1"],\
+          ["@emotion/react", "virtual:ee40ece14ec021b13b1ae66efe434e48c74c7640d61ec0f7da715628282a07c9df8e519eae495c9f6ff15699d524515e77b070018dc5820f6f9b0c58efcdf6df#npm:11.11.4"],\
+          ["@types/emotion__react", null]\
+        ],\
+        "packagePeers": [\
+          "@emotion/react",\
+          "@types/emotion__react"\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4683,6 +4706,7 @@ const RAW_RUNTIME_STATE =
           ["@types/react", "npm:18.3.3"],\
           ["@types/react-dom", "npm:18.3.0"],\
           ["@vitejs/plugin-react", "virtual:ee40ece14ec021b13b1ae66efe434e48c74c7640d61ec0f7da715628282a07c9df8e519eae495c9f6ff15699d524515e77b070018dc5820f6f9b0c58efcdf6df#npm:4.3.1"],\
+          ["emotion-reset", "virtual:ee40ece14ec021b13b1ae66efe434e48c74c7640d61ec0f7da715628282a07c9df8e519eae495c9f6ff15699d524515e77b070018dc5820f6f9b0c58efcdf6df#npm:3.0.1"],\
           ["eslint", "npm:8.57.0"],\
           ["eslint-plugin-react", "virtual:ee40ece14ec021b13b1ae66efe434e48c74c7640d61ec0f7da715628282a07c9df8e519eae495c9f6ff15699d524515e77b070018dc5820f6f9b0c58efcdf6df#npm:7.34.3"],\
           ["eslint-plugin-react-hooks", "virtual:ee40ece14ec021b13b1ae66efe434e48c74c7640d61ec0f7da715628282a07c9df8e519eae495c9f6ff15699d524515e77b070018dc5820f6f9b0c58efcdf6df#npm:4.6.2"],\
