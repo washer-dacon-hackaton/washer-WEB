@@ -5,10 +5,17 @@
  * user agent stylesheet라는 기본적인 스타일 속성이 브라우저에 설정되어 있음.
  * 작성자 스타일이 브라우저 스타일보다 우선시 되긴 함.
  */
-
 import { css } from "@emotion/react";
 import emotionReset from "emotion-reset";
+import { palette } from "../styles/index";
 
 export const GlobalStyle = css`
   ${emotionReset}
+
+  body {
+    width: 100vw;
+    height: 100vh;
+    background-color: ${palette.gray.white};
+    font-family: "Pretendard";
+  }
 `;
