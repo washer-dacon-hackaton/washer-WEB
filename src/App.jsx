@@ -7,6 +7,6 @@ function App() {
       <GNB user={{ name: "이혁" }} breadcrumbs={"메인 페이지"}></GNB>
     </>
   );
-
+}
 
 export default App;
