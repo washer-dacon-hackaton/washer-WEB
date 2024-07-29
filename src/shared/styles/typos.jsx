@@ -28,6 +28,13 @@ export const typo = {
     `,
     h3: css`
       font-family: "Pretendard";
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 130%;
+      letter-spacing: -2.5%;
+    `,
+    h4: css`
+      font-family: "Pretendard";
       font-size: 16px;
       font-weight: 500;
       line-height: 130%;

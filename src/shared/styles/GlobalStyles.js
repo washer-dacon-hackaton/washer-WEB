@@ -14,8 +14,9 @@ export const GlobalStyle = css`
 
   body {
     width: 100vw;
+    min-width: 1080px;
     height: 100vh;
-    background-color: ${palette.gray.white};
+    background-color: ${palette.Gray.white};
     font-family: "Pretendard";
   }
 `;
