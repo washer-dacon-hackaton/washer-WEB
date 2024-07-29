@@ -1,13 +1,6 @@
-/** @jsx jsx */
-import { css } from "@emotion/react";
+import styled from "@emotion/styled";
 
-export const Space = ({ height }) => {
-  return (
-    <div
-      className={css`
-        width: 100%;
-        height: ${height}px;
-      `}
-    ></div>
-  );
-};
+export const Space = styled.div`
+  height: ${(props) => props?.height}px;
+  width: ${(props) => props?.width}px;
+`;
