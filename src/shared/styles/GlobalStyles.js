@@ -7,7 +7,7 @@
  */
 import { css } from "@emotion/react";
 import emotionReset from "emotion-reset";
-import { palette } from "../styles/index";
+import { palette } from "./index";
 
 export const GlobalStyle = css`
   ${emotionReset}

@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 import { Global } from "@emotion/react";
-import { GlobalStyle } from "./styles/index.js";
+import { GlobalStyle } from "./shared/styles/index.js";
 import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
