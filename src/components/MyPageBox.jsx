@@ -1,4 +1,3 @@
-import { css } from "@emotion/react";
 import { Button } from "wowds-ui";
 
 export const MyPageBox = ({
@@ -8,7 +7,7 @@ export const MyPageBox = ({
   isButton = false,
 }) => {
   return (
-    <div className={css``}>
+    <div>
       <div>{title}</div>
       <div>{sentence}</div>
       <div>{body ? body : null}</div>

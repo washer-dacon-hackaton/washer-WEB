@@ -1,11 +1,10 @@
-import { css } from "@emotion/react";
 import { IconButton } from "../utils/IconButton";
 
 export const MyPageProfile = ({ user }) => {
   let User = user;
 
   return (
-    <div className={css``}>
+    <div>
       <img src={User.profile}></img>
       <div>
         <div>{User.name}</div>
