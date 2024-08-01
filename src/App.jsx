@@ -1,6 +1,6 @@
 import "./App.css";
 import { GNB } from "./widgets/GNB";
-
+import {} from "react-router-dom";
 function App() {
   return (
     <>
