@@ -21,6 +21,7 @@
     "emotion-reset": "^3.0.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-js-pagination": "^3.0.3",
     "react-router-dom": "^6.25.1",
     "react-wordcloud": "^1.2.7",
     "wowds-icons": "^0.0.3",
